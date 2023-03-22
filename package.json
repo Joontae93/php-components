@@ -1,0 +1,11 @@
+{
+  "name": "php-components",
+  "version": "1.0.0",
+  "description": "A container for php classes that output html components (like JSX for PHP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KJ Roelke",
+  "license": "ISC"
+}
