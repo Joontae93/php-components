@@ -10,6 +10,27 @@ Big shoutout to [Astro.js](https://astro.build) for the images :)
 
 # Changelog
 
+## v1.1
+
+Added a Content-Sections class that assumes ACF is installed. Shoutout to the team at [Themeco](https://theme.co) for inspiring me with component types and controls.
+
+### Methods (aka the components)
+
+-   **headline**
+    -   with optional `subheadline`
+    -   both with controllable elements and classes
+-   **cta_button**
+    -   Generates an `<a class='btn'>` or `<button class='btn'>` depending on the presence of a `$link`
+-   **hero_section**
+    -   a whole `<section class='hero'>` with controls
+-   **two_col_text_and_media**
+    -   Makes use of `headline` and `cta_button`
+    -   Generates a `row` with 2 `<div class='col-6'>` inside
+    -   Reversible!
+-   **vertical_card**
+    -   Like two_col_text_and_media, but is bootstrap agnostic
+    -   Also makes use of `headline` and its `$args` controls the `headline`'s `$args` parameter.
+
 ## v1.0
 
 Init!
